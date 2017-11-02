@@ -7,8 +7,8 @@ describe('angular-quick-start-app App', () => {
     page = new AppPage();
   });
 
-  it('should display Employees', () => {
+  it('should display Home', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Employees');
+    expect(page.getParagraphText()).toEqual('Home');
   });
 });
